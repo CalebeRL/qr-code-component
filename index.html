@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    * {
+        font-family: 'Outfit';
+    }
+
+    body {
+        background-color: hsl(212, 45%, 89%);
+        margin: 0;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        min-width: 1vw;
+        max-width: 310px;
+        background-color: hsl(0, 0%, 100%);
+        padding: 15px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .image {
+        max-width: 90vw;
+        border-radius: 10px;
+
+    }
+
+    .title {
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 10px;
+        color: hsl(218, 44%, 22%);
+    }
+
+    .text {
+        font-size: 16px;
+        text-align: center;
+        margin: 10px 15px 20px 15px;
+        color: hsl(220, 15%, 55%)
+    }
+
+    .attribution { 
+        position: fixed;
+        margin: 0 5px;
+        bottom: 5px;
+        
+    }
+
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+  </style>
+</head>
+
+<body>
+    
+    <main>
+        <div class="card">
+            <img class="image" src="./images/image-qr-code.png">
+            <h1 class="title">Improve your front-end skills by building projects</h1>
+            <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+    </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Calebe</a>.
+  </div>
+
+</body>
+
+</html>
